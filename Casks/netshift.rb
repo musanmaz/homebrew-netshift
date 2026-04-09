@@ -1,6 +1,6 @@
 cask "netshift" do
-  version "1.0.0"
-  sha256 "9de02ba937cc136537d6801c290e806e60611afa478a6b49f3f722bd4f6a3370"
+  version "1.1.0"
+  sha256 "91690a589737ef12c64a9399f2b89f9cb33fe3a72c9cfdef697961139f3c945c"
 
   url "https://github.com/musanmaz/netshift/releases/download/v#{version}/NetShift-macos.zip"
   name "NetShift"
