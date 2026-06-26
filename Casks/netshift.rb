@@ -1,13 +1,13 @@
 cask "netshift" do
-  version "1.1.0"
-  sha256 "91690a589737ef12c64a9399f2b89f9cb33fe3a72c9cfdef697961139f3c945c"
+  version "1.2.0"
+  sha256 "1c65910e8278efc8e12e44f7d4d4d70c1e606722f9021b122e6c2de761464c34"
 
   url "https://github.com/musanmaz/netshift/releases/download/v#{version}/NetShift-macos.zip"
   name "NetShift"
   desc "DNS and hosts file manager for macOS"
   homepage "https://github.com/musanmaz/netshift"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "NetShift.app"
 
